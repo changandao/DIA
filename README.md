@@ -1,5 +1,15 @@
 # README
 
+# Prerequists
+This repositary uses Spphus and Eigen to represent the Lie group and Lie Algebra, and use g2o to do the optimization.
+## g2o 
+You can direct install the lib from 3rdparty folder
+## Sophus
+You can direct install the lib from 3rdparty folder
+## Eigen
+eigen >=3.1
+## Opencv
+
 # g2o may get comflicts
 Because there existing some comflicts between the old version and new version.
 So if error shows up about g2o during the make process please install the g2o version in 3rdparty folder.
