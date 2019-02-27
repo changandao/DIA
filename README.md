@@ -45,7 +45,7 @@ Possible improvement could be on such perspectives:
 1. **improve the image pyramids**  
 Now the pyramids is build on the naive implementation of downsampling, better method could be develeped  
 2. **using iamge patchs**  
-instead of using single pixels coordinates, patch photometric errors could be a better method considering also the context around a single pxiel.
+instead of using single pixels coordinates, patch photometric errors could be a better method considering also the context around a single pxiel. Also the Huber kernel should be added to improve the robustness.
 3. **eliminating the outliers during the iteration**  
 there are lots of outliers during the iteration, which results in negative influence on the estimation. 
 # Reference
