@@ -6,18 +6,21 @@ set( CMAKE_BUILD_TYPE "Release" )
 set( CMAKE_CXX_FLAGS "-std=c++11 -march=native -O3" )
 
 list( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
+list( APPEND CMAKE_PREFIX_PATH "/volume/software/common/cmake/$ENV{ARCH}")
+list( APPEND CMAKE_PREFIX_PATH "/home_local/wang_sn/3rdParties/Sophus/build")
 set( EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin )
 set( LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib )
 
 ############### dependencies ######################
 # Eigen
-include_directories( "/usr/include/eigen3" )
+find_package(Eigen REQUIRED)
+include_directories( ${Eigen_INCLUDE_DIRS})
 # OpenCV
 find_package( OpenCV 3.1 REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 # Sophus 
 find_package( Sophus REQUIRED )
-set(Sophus_LIBRARIES libSophus.so)
+set(Sophus_LIBRARIES /home/wang_sn/workspace/DIA/3rdparty/Sophus/build/libSophus.so)
 include_directories( ${Sophus_INCLUDE_DIRS} )
 # G2O
 include(cmake_modules/FindG2O.cmake)
