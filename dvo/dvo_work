@@ -1,0 +1,11 @@
+﻿ DVO Future Work
+
+1) Cinematic Prior
+2) Error distribution
+3) Ceres / g2o
+4) Gradient Oriented Mask
+5) Photometric calibration of the camera
+6) Initialize new points
+7) Local Bundle Adjustment
+8) Extract HGP (High Gradient Pixels) : 
+

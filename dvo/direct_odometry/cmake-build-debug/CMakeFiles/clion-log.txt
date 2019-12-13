@@ -1,0 +1,12 @@
+/opt/CLion/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home_local/wang_sn/workspace/dvo/direct_odometry
+-- found OpenCV 3.4.2
+-- loading /volume/software/common/cmake/osl42-x86_64/OpenCV/3.4.2/OpenCVConfig.cmake
+-- loading config from /volume/software/common/foreign_packages/OpenCV/3.4.2/osl42-x86_64/share/OpenCV/OpenCVConfig.cmake
+-- loaded OpenCV  3.4.2 from /volume/software/common/foreign_packages/OpenCV/3.4.2/lib/osl42-x86_64
+-- found Eigen 3.3.2
+-- loading /volume/software/common/cmake/osl42-x86_64/Eigen/3.3.2/EigenConfig.cmake
+-- loaded Eigen  3.3.2 from /volume/software/common/foreign_packages/Eigen/3.3.2
+WHAT /volume/software/common/foreign_packages/Eigen/3.3.2/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home_local/wang_sn/workspace/dvo/direct_odometry/cmake-build-debug

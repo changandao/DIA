@@ -1,0 +1,15 @@
+%YAML:1.0 
+
+monoRGBDdataset:
+   name: rgbd_dataset_freiburg2_xyz 
+   path: /home_local/wang_sn/Datasets/RGBD_datasets/rgbd_dataset_freiburg2_xyz/
+   depthConstant: 5000
+   timeUnitToSeconds: 0.000001
+   RGB_hz: 30
+   depth_hz: 30
+   numRGB: 3669 
+   numDepth: 3666 
+   firstRGB: 0 
+   lastRGB: 3668 
+   numCameras: 1
+   camera0YAML: /home_local/wang_sn/workspace/dvo/cameras/freiburg2.yaml

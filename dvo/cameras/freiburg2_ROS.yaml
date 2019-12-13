@@ -1,0 +1,12 @@
+%YAML:1.0 
+%Freiburg 2
+
+camera0:
+   model: Pinhole
+   fx: 525.0
+   fy: 525.0
+   cx: 319.5
+   cy: 239.5
+   w: 640
+   h: 480
+ 

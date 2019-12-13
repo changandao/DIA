@@ -1,0 +1,47 @@
+%YAML:1.0 
+
+extractPoints:
+   extractPointsMode: 1
+   GminForHgpExtract: 3
+   dForExtractHgp: 8
+
+meshSettings:
+   numPointsPerCell: 2
+   numCellsMesh_u: 20
+   numCellsMesh_v: 15
+   marginsOfTheImage: 2
+
+resolutionPyramid:
+   pyrLevelScaleSlope: 2
+
+cannyEdges:
+   canny_lowThreshold: 101
+   canny_ratio: 3
+   canny_kernel_size: 3
+   
+kinectSensor:
+   u_SizeKinectPatch: 1
+   v_SizeKinectPatch: 1
+   depthMax: 10
+   depthMin: 0.01
+
+cinematicModel:
+   numTrackedFramesToInitCinematicModel: 10
+   maxLinearAcceleration: 0.0083
+   maxAngularAcceleration: 0.0059
+   maxPhScalarVariability: 0.001
+   maxPhBiasVariability: 20
+
+pointVisibility:
+   maxGradientErrorForVisibility: 20
+   maxCosAngleForVisibility: 0.8660
+   
+isKeyframe:
+   numKeyframesFrontEnd: 7
+   minDistanceForCreateKeyframe: 0.0005
+
+numIterationsDistortion: 10
+visiblePointsForLocalOptWindow: 100
+numPointsRefMinForKeyframe: 1
+numHgpPointsInitalization: 2000
+distanceRelatedKeyframe: 1.51

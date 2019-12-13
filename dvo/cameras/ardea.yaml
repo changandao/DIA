@@ -1,0 +1,11 @@
+%YAML:1.0 
+%ardea
+
+camera0:
+   model: Pinhole
+   fx: 198.6255
+   fy: 198.6255
+   cx: 166.5
+   cy: 126.5
+   w: 333
+   h: 253

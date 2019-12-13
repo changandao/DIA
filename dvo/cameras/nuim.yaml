@@ -1,0 +1,11 @@
+%YAML:1.0 
+%NUIM
+
+camera0:
+   model: Pinhole
+   fx: 481.2
+   fy: -480.0
+   cx: 319.5
+   cy: 239.5
+   w: 640
+   h: 480
